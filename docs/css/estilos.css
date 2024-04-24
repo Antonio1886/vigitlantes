@@ -1,8 +1,81 @@
+:root{
+  --background-color: #000C28;
+ --color: black;
+ --colorBase: #ECFF00;
+}
+
 html{
-  background-color: #000C28;
-  color: #ECFF00;
+  background-color: var(--background-color);  
+  color: var(--colorBase)
 
 }
 .links{
   color: rgb(253, 70, 107); 
+  transition: all 0.5s ease-out
+
+}
+
+.Red{
+  color: red;
+}
+
+.white{
+  color: white;
+}
+
+
+
+body {
+  font-size: 16px;
+
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+a:hover{
+  color: var(--color)
+}
+
+.Size-50{
+  font-size: 50px;
+
+}
+
+.size-25{
+  font-size: 25px;
+
+}
+
+.size-20{
+  font-size: 20px;
+
+}
+.size-30{
+  font-size: 30px;
+
+}
+.gay{
+  color: gray;
+}
+
+.size-35{
+  font-size: 235px;
+
+}
+
+
+
+img, iframe{
+  max-width:100%  
+}
+table{
+  width: 100%;
+  color: red;
+
+}
+
+.backtable{
+ background: aqua;
 }
