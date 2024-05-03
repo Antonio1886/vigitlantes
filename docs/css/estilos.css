@@ -1,5 +1,8 @@
 :root{
   --background-color: #000C28;
+
+
+  
  --color: black;
  --colorBase: #ECFF00;
 }
@@ -22,8 +25,6 @@ html{
 .white{
   color: white;
 }
-
-
 
 body {
   font-size: 16px;
@@ -56,9 +57,6 @@ a:hover{
   font-size: 30px;
 
 }
-.gay{
-  color: gray;
-}
 
 .size-35{
   font-size: 235px;
@@ -67,15 +65,27 @@ a:hover{
 
 
 
-img, iframe{
+img{
   max-width:100%  
 }
 table{
   width: 100%;
-  color: red;
+  color: white ;
 
 }
 
 .backtable{
  background: aqua;
 }
+
+.text-redFont{
+ color: var(--bs-danger-text-emphasis);
+}
+.text-orange{
+  color: var(--bs-orange);
+ }
+ 
+.text_gray{
+  color: var(--bs-gray);
+}
+
